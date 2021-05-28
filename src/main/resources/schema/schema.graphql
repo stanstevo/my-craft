@@ -1,0 +1,8 @@
+type Query {
+    crafts(titleFilter: String): [Craft]
+}
+
+type Craft {
+    id: Int
+    craft_name: String
+}
