@@ -1,4 +1,4 @@
-/* package com.unya.mycraft.service;
+ package com.unya.mycraft.service;
 
 
 import com.unya.mycraft.entity.Craftsman;
@@ -21,5 +21,11 @@ public class CraftsmanService {
     public List<Craftsman> findAll() {
         return craftsmanRepository.findAll();
     }
+
+    public void save(Craftsman craftsman) {
+        if(craftsman == null) {
+            return;
+        }
+        craftsmanRepository.save(craftsman);
+    }
 }
- */
