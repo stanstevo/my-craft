@@ -1,2 +1,2 @@
 # my-craft
-opinionated noticeboard of craftsmen
+A website to for craftsmen to advertise their crafts/skills.
